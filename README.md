@@ -11,6 +11,6 @@
 
 
 <table><tr>
-<td><img src=3DHumanReconstruction_Fps50_W270H480.gif border=0></td>
-<td><img src=3DHumanReconstruction_Pipeline.jpg border=0></td>
+<td><img src=3DHumanReconstruction_Fps50_W270H480.gif border=0 width=540 height=960></td>
+<td><img src=3DHumanReconstruction_Pipeline.jpg border=0 height=960></td>
 </tr></table>
