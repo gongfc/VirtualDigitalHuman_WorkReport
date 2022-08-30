@@ -13,5 +13,8 @@
 
 <table><tr>
 <td><img src=3DHumanReconstruction_Fps50_W270H480.gif border=0 width=270 height=480></td>
-<td><img src=3DHumanReconstruction_Pipeline.jpg border=0 height=480></td>
 </tr></table>
+
+<p align="center">
+<img src="3DHumanReconstruction_Pipeline.jpg">
+</p>
