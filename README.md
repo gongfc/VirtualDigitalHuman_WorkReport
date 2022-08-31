@@ -6,8 +6,8 @@ All materials provided by this repository, including MP4, GIF, PDF, JPG, have al
 This repository mainly contains two demos, as well as their implementation details and pipelines
 
 ## Demo1 : 3D Virtual Tryon
-Try on various clothes to different postures and shapes of body models, and replace their heads with Flames(with facial emotions). <br/>
-Finally, the 3D virtual human with voice broadcast is generated.<br/>
+Try on various clothes to different postures and shapes of body models, and replace their heads with Flames(with facial expression). <br/>
+Finally, the 3D virtual human with voice broadcast function is generated.<br/>
 The GIF of the final results and the implementation process are shown below : <br/>
 (MP4 with sound of the final results, please download the [3DVirtualTryon.mp4](3DVirtualTryon.mp4) and [3DVirtualTryonTurn.mp4](3DVirtualTryonTurn.mp4). They are also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
 <table><tr>
@@ -20,8 +20,8 @@ The GIF of the final results and the implementation process are shown below : <b
 
 ## Demo2 : 3D Human Reconstruction
 Through the front and back pictures and action videos of the human body, Smplx body models and corresponding textures and actions are generated.
-Replace the head with Flames(with facial emotions) in a different way than above.<br/>
-Finally, Another 3D virtual human with voice broadcast is generated.<br/>
+Replace the head with Flames(with facial expression) in a different way than above.<br/>
+Finally, Another 3D virtual human with voice broadcast function is generated.<br/>
 The GIF of the final results and the implementation process are shown below : <br/>
 (MP4 with sound of the final results, please download the [3DHumanReconstruction.mp4](3DHumanReconstruction.mp4). It is also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
 <table><tr>
@@ -31,3 +31,14 @@ The GIF of the final results and the implementation process are shown below : <b
 <p align="center">
 <img src="3DHumanReconstruction_Pipeline.jpg">
 </p>
+
+## Detail1 : Voice generated facial expression
+We generate voice through TTS based on text data and then generate Flames facial expression (e.g., lips and wink) through VOCA. <br/>
+The text data we use is: "8日下午，习--总--在四川省宜宾市先后考察了三江口、宜宾学院、极米光电有限公司，了解长江流域生态修复保护、高校毕业生就业、企业自主创新等情况。". Sensitive words were replaced with ‘-’.
+The GIF of the final results is shown below : <br/>
+(MP4 with sound of the final results, please download the [VOCAOutput_XJPDY.mp4](VOCAOutput_XJPDY.mp4). It is also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
+<table><tr>
+<td><img src=VOCAOutput_XJPDY_Fps50_W800H800.gif border=0 width=400 height=400></td>
+</tr></table>
+
+
