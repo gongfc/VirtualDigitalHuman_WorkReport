@@ -1,5 +1,5 @@
 # VirtualDigitalHuman_WorkReport(正在完善中)
-This is a work report repository about Virtual Digital Human, including 3D Human Head, 3D Human Bodies, 3D Human Motions, 3D Human Textures, and 3D Virtual Tryon. I have compiled our research results into the work report, the pdf can be found [here](VirtualDigitalHuman_WorkReport.pdf)
+This is a work report repository about Virtual Digital Human, including 3D Human Head, 3D Human Bodies, 3D Human Motions, 3D Human Textures, and 3D Virtual Tryon. I have compiled our research results into the work report, the pdf can be found [here](VirtualDigitalHuman_WorkReport.pdf).
 
 ## 3DVirtualTryon
 
