@@ -49,4 +49,5 @@ The two replacement methods are as follows :
 <p align="center">
 <img src="Detail_FlameReplaceBodyHead.jpg">
 </p>
+
 ## Reference
