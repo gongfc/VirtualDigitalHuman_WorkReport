@@ -3,8 +3,13 @@ This is a work report repository about Virtual Digital Human, including 3D Human
 I have compiled the research results into the work report in PDF format, PDF can be found [here](VirtualDigitalHuman_WorkReport.pdf).<br/>
 All materials provided by this repository, including MP4, GIF, PDF, JPG, have also been put on [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69)<br/>
 
-## 3DVirtualTryon
+This repository mainly contains two demos, as well as their implementation details and pipelines
 
+## Demo1:3D Virtual Tryon
+Try on various clothes to different postures and shapes of body models, and replace their heads with Flames (with facial emotions). <br/>
+Finally, the 3D virtual human with voice broadcast is generated.<br/>
+The GIF of the final results and the implementation process are shown below:<br/>
+(MP4 with sound of the final results, please download from [here](3DVirtualTryon.mp4, 3DVirtualTryonTurn.mp4) or pan.baidu.com)
 <table><tr>
 <td><img src=3DVirtualTryon_Fps50_W270H480.gif border=0></td>
 <td><img src=3DVirtualTryonTurn_Fps50_W270H480.gif border=0></td>
@@ -13,7 +18,7 @@ All materials provided by this repository, including MP4, GIF, PDF, JPG, have al
 <img src="3DVirtualTryon_Pipeline.jpg">
 </p>
 
-## 3DHumanReconstruction
+## Demo2:3D Human Reconstruction
 
 <table><tr>
 <td><img src=3DHumanReconstruction_Fps50_W270H480.gif border=0 width=270 height=480></td>
