@@ -6,11 +6,10 @@ All materials provided by this repository, including MP4, GIF, PDF, JPG, have al
 This repository mainly contains two demos, as well as their implementation details and pipelines
 
 ## Demo1 : 3D Virtual Tryon
-Try on various clothes to different postures and shapes of body models, and replace their heads with Flames (with facial emotions). <br/>
+Try on various clothes to different postures and shapes of body models, and replace their heads with Flames(with facial emotions). <br/>
 Finally, the 3D virtual human with voice broadcast is generated.<br/>
-The GIF of the final results and the implementation process are shown below:<br/>
-(MP4 with sound of the final results, please download the [3DVirtualTryon.mp4](3DVirtualTryon.mp4) and [3DVirtualTryonTurn.mp4](3DVirtualTryonTurn.mp4). )
-( They are also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
+The GIF of the final results and the implementation process are shown below : <br/>
+(MP4 with sound of the final results, please download the [3DVirtualTryon.mp4](3DVirtualTryon.mp4) and [3DVirtualTryonTurn.mp4](3DVirtualTryonTurn.mp4). They are also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
 <table><tr>
 <td><img src=3DVirtualTryon_Fps50_W270H480.gif border=0></td>
 <td><img src=3DVirtualTryonTurn_Fps50_W270H480.gif border=0></td>
@@ -19,8 +18,12 @@ The GIF of the final results and the implementation process are shown below:<br/
 <img src="3DVirtualTryon_Pipeline.jpg">
 </p>
 
-## Demo2:3D Human Reconstruction
-
+## Demo2 : 3D Human Reconstruction
+Through the front and back pictures and action videos of the human body, Smplx body models and corresponding textures and actions are generated.
+Replace the head with Flames(with facial emotions) in a different way than above.<br/>
+Finally, Another 3D virtual human with voice broadcast is generated.<br/>
+The GIF of the final results and the implementation process are shown below : <br/>
+(MP4 with sound of the final results, please download the [3DHumanReconstruction.mp4](3DHumanReconstruction.mp4). It is also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
 <table><tr>
 <td><img src=3DHumanReconstruction_Fps50_W270H480.gif border=0 width=270 height=480></td>
 </tr></table>
