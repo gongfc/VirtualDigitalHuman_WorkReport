@@ -1,24 +1,7 @@
 # VirtualDigitalHuman_WorkReport(正在完善中)
+This is a work report repository about Virtual Digital Human, including 3D Human Head, 3D Human Bodies, 3D Human Motions, 3D Human Textures, and 3D Virtual Tryon. I have compiled our research results into the work report, the pdf can be found [here](VirtualDigitalHuman_WorkReport.pdf)
 
 ## 3DVirtualTryon
-<script src="./hls.min.js"></script>
-<video id="video" width="279" height="480" autoplay="autoplay" muted="muted" controls="controls">
-</video>
- 
-<script>
-    // 调用这个方法加载视频源
-	function reload(src){
-		var video = document.getElementById('video'); // 获取 video 标签
-		var hls = new Hls(); // 实例化 Hls 对象
-		hls.loadSource(src); // 传入路径
-		hls.attachMedia(video);
-		hls.on(Hls.Events.MANIFEST_PARSED,function() {
-			      video.play(); // 调用播放 API
-	    });
-	    video.muted=false;
-	}
-</script>
-reload("3DVirtualTryon.mp4")
 
 <table><tr>
 <td><img src=3DVirtualTryon_Fps50_W270H480.gif border=0></td>
