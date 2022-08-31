@@ -32,13 +32,21 @@ The GIF of the final results and the implementation process are shown below : <b
 <img src="3DHumanReconstruction_Pipeline.jpg">
 </p>
 
-## Detail1 : Voice generated facial expression
-We generate voice through TTS based on text data and then generate Flames facial expression (e.g., lips and wink) through VOCA. <br/>
-The text data we use is: "8日下午，习--总--在四川省宜宾市先后考察了三江口、宜宾学院、极米光电有限公司，了解长江流域生态修复保护、高校毕业生就业、企业自主创新等情况。". Sensitive words were replaced with ‘-’.
+## Detail1 : Voice generated flames facial expression
+We generate voice through TTS based on text data and then generate flames facial expression (e.g., lips and wink) through VOCA. <br/>
+Both demos use the flames face expression (e.g., lips and wink). <br/>
+The text data we use is: "8日下午，习--总--在四川省宜宾市先后考察了三江口、宜宾学院、极米光电有限公司，了解长江流域生态修复保护、高校毕业生就业、企业自主创新等情况。". Sensitive words were replaced with ‘-’.<br/>
 The GIF of the final results is shown below : <br/>
 (MP4 with sound of the final results, please download the [VOCAOutput_XJPDY.mp4](VOCAOutput_XJPDY.mp4). It is also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
 <table><tr>
 <td><img src=VOCAOutput_XJPDY_Fps50_W800H800.gif border=0 width=400 height=400></td>
 </tr></table>
 
-
+## Detail2 : Flames-based Head Replacement
+Different replacement methods were used to replace the heads of 27554smpl and smplx with flames.<br/>
+27554Smpl is the body model of Demo1(3D Virtual Tryon), which contains 27554 vertices. Smplx is the body model of Demo2(3D Human Reconstruction).<br/>
+The two replacement methods are as follows :
+<p align="center">
+<img src="Detail_FlameReplaceBodyHead.jpg">
+</p>
+## Reference
