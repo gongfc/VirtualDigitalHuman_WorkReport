@@ -1,4 +1,4 @@
-# VirtualDigitalHuman_WorkReport(正在完善中)
+# VirtualDigitalHuman_WorkReport
 This is a work report repository about Virtual Digital Human, including 3D Human Head, 3D Human Bodies, 3D Human Motions, 3D Human Textures, and 3D Virtual Tryon. <br/>
 I have compiled the research results into the work report in PDF format, PDF can be found [here](VirtualDigitalHuman_WorkReport.pdf).<br/>
 All materials provided by this repository, including MP4, GIF, PDF, JPG, have also been put on [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69)<br/>
@@ -51,19 +51,19 @@ The two replacement methods are as follows :
 </p>
 
 ## Reference
-We have referred to many open source projects, and we have listed a few of them.
-[FACIAL](https://github.com/zhangchenxu528/FACIAL)<br/>
-[FACEGOOD-Audio2Face](https://github.com/FACEGOOD/FACEGOOD-Audio2Face)<br/>
-[voca](https://github.com/TimoBolkart/voca)<br/>
-[meshtalk](https://github.com/facebookresearch/meshtalk)<br/>
-[FaceFormer](https://github.com/EvelynFan/FaceFormer)<br/>
-
+We have referred to many open source projects, and we have listed a few of them.<br/>
 [SMPL](https://smpl.is.tue.mpg.de/)<br/>
 [SMPLX](https://github.com/vchoutas/smplx)<br/>
 [textured_smplx](https://github.com/qzane/textured_smplx)<br/>
 [Mesh](https://github.com/MPI-IS/mesh)<br/>
 [Flame](https://flame.is.tue.mpg.de/index.html)<br/>
 [FLame2SMPLX](https://github.com/CvHadesSun/FLame2SMPLX)<br/>
+
+[FACIAL](https://github.com/zhangchenxu528/FACIAL)<br/>
+[FACEGOOD-Audio2Face](https://github.com/FACEGOOD/FACEGOOD-Audio2Face)<br/>
+[voca](https://github.com/TimoBolkart/voca)<br/>
+[meshtalk](https://github.com/facebookresearch/meshtalk)<br/>
+[FaceFormer](https://github.com/EvelynFan/FaceFormer)<br/>
 
 [Open3D](https://github.com/isl-org/Open3D)<br/>
 [hifi3dface](https://github.com/tencent-ailab/hifi3dface)<br/>
