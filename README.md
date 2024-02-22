@@ -5,17 +5,17 @@ I have compiled the research results into the work report in PDF format, PDF can
 This repository mainly contains two demos, as well as their implementation details and pipelines
 
 ## Demo1 : Using facial detail methods and contrastive learning methods to improve FFHQ-UV
-1. The following image : 
-(a).FFHQ-UV method: The high fidelity and low fidelity human faces of the original FFHQ-UV algorithm
-(b).Face detail method: similarity is more than 90%, basically identical, and has strong adaptability
-(c).Comparative learning method: 80% similarity, able to handle skin tone and lighting issues, only able to have a similar appearance
+1. The following image : <br/>
+(a).FFHQ-UV method: The high fidelity and low fidelity human faces of the original FFHQ-UV algorithm  <br/>
+(b).Face detail method: similarity is more than 90%, basically identical, and has strong adaptability <br/>
+(c).Comparative learning method: 80% similarity, able to handle skin tone and lighting issues, only able to have a similar appearance <br/>
 <p align="center">
 <img src="FFHQ-UV改进方式的效果比较.jpg">
 </p>
-2. The following GiF-File : 
-(a).Using Facial-Detail-Methods to reconstruct 某人's 3D face, 
-(b).Using contrastive learning methods to reconstruct 鲁迅's 3D face，
-and all Add mouth shaped voice broadcasting and actions to generate 3D digital humans.
+2. The following GiF-File : <br/>
+(a).Using Facial-Detail-Methods to reconstruct 某人's 3D face,           <br/>
+(b).Using contrastive learning methods to reconstruct 鲁迅's 3D face，   <br/>
+and all Add mouth shaped voice broadcasting and actions to generate 3D digital humans. <br/>
 <table><tr>
 <td><img src=使用人脸细节方式重建XXX.gif border=0></td>
 <td><img src=使用对比学习方式重建鲁迅.gif border=0></td>
