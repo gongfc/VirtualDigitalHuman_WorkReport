@@ -1,23 +1,25 @@
 # VirtualDigitalHuman_WorkReport
 This is a work report repository about Virtual Digital Human, including 3D Human Head, 3D Human Bodies, 3D Human Motions, 3D Human Textures, and 3D Virtual Tryon. <br/>
 I have compiled the research results into the work report in PDF format, PDF can be found [here](VirtualDigitalHuman_WorkReport.pdf).<br/>
-All materials provided by this repository, including MP4, GIF, PDF, JPG, have also been put on [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69)<br/>
 
 This repository mainly contains two demos, as well as their implementation details and pipelines
 
-## Demo1 : 3D Virtual Tryon
-Try on various clothes to different postures and shapes of body models, and replace their heads with Flame(with facial expression). <br/>
-Finally, the 3D virtual human with voice broadcast function is generated.<br/>
-The GIF of the final results and the implementation process are shown below : <br/>
-(MP4 with sound of the final results, please download the [3DVirtualTryon.mp4](3DVirtualTryon.mp4) and [3DVirtualTryonTurn.mp4](3DVirtualTryonTurn.mp4). They are also included in the [pan.baidu.com](https://pan.baidu.com/s/1DAcX4ngI5wYj3Ad_goTp4w?pwd=7y69) )
-<table><tr>
-<td><img src=3DVirtualTryon_Fps50_W270H480.gif border=0></td>
-<td><img src=Output_20240219_210757_1708348077.gif border=0></td>
-<td><img src=3DVirtualTryonTurn_Fps50_W270H480.gif border=0></td>
-</tr></table>
+## Demo1 : Using facial detail methods and contrastive learning methods to improve FFHQ-UV
+1. The following image : 
+(a).FFHQ-UV method: The high fidelity and low fidelity human faces of the original FFHQ-UV algorithm
+(b).Face detail method: similarity is more than 90%, basically identical, and has strong adaptability
+(c).Comparative learning method: 80% similarity, able to handle skin tone and lighting issues, only able to have a similar appearance
 <p align="center">
-<img src="3DVirtualTryon_Pipeline.jpg">
+<img src="FFHQ-UV改进方式的效果比较.jpg">
 </p>
+2. The following GiF-File : 
+(a).Using Facial-Detail-Methods to reconstruct 某人's 3D face, 
+(b).Using contrastive learning methods to reconstruct 鲁迅's 3D face，
+and all Add mouth shaped voice broadcasting and actions to generate 3D digital humans.
+<table><tr>
+<td><img src=使用人脸细节方式重建XXX.gif border=0></td>
+<td><img src=使用对比学习方式重建鲁迅.gif border=0></td>
+</tr></table>
 
 ## Demo2 : 3D Human Reconstruction
 Through the front and back pictures and action videos of the human body, Smplx body models and corresponding textures and actions are generated.
