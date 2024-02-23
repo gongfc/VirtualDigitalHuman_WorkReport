@@ -3,7 +3,7 @@ This is a work report repository about Virtual Digital Human, including 3D Human
 I have compiled the research results into the work report in PDF format, PDF can be found [here](VirtualDigitalHuman_WorkReport.pdf).<br/>
 
 This repository mainly contains one demos, as well as their implementation details and pipelines
-
+(The other files in git are unoptimized effects that can be referenced)
 ## Demo1 : Using facial detail methods and contrastive learning methods to improve FFHQ-UV
 1. The following image : <br/>
 (a).FFHQ-UV method: The high fidelity and low fidelity human faces of the original FFHQ-UV algorithm  <br/>
