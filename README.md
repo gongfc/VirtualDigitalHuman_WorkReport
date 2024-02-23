@@ -2,7 +2,7 @@
 This is a work report repository about Virtual Digital Human, including 3D Human Head, 3D Human Bodies, 3D Human Motions, 3D Human Textures, and 3D Virtual Tryon. <br/>
 I have compiled the research results into the work report in PDF format, PDF can be found [here](VirtualDigitalHuman_WorkReport.pdf).<br/>
 
-This repository mainly contains one demos, as well as their implementation details and pipelines
+This repository mainly contains one demos, as well as their implementation details and pipelines <br/>
 (The other files in git are unoptimized effects that can be referenced)
 ## Demo1 : Using facial detail methods and contrastive learning methods to improve FFHQ-UV
 1. The following image : <br/>
